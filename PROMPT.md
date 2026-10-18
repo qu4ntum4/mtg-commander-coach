@@ -2,7 +2,7 @@
 
 Ouvre l'app Claude sur ton ordinateur, va dans l'onglet **Code**, ouvre une session dans
 n'importe quel dossier (par exemple tes Documents), puis colle tout le bloc ci-dessous.
-Claude te demandera la permission avant chaque action ; l'installation prend 5 à 10 minutes et
+Claude te demandera la permission avant chaque action ; l'installation prend 5 à 15 minutes selon la connexion et
 télécharge environ 1 Go.
 
 ---
@@ -22,7 +22,9 @@ et ne modifie rien d'autre sur ma machine que ce que ces étapes demandent.
    `%USERPROFILE%\.local\bin\uv.exe` sous Windows) : ta session ne voit pas encore le nouveau PATH.
 
 2. Récupère le dépôt dans le dossier `mtg-commander-coach` de mon dossier personnel :
-   `git clone` s'il est disponible ; sinon télécharge l'archive
+   `git clone -c core.longpaths=true https://github.com/qu4ntum4/mtg-commander-coach.git`
+   s'il est disponible (l'option évite un échec sur les chemins longs de Windows) ; sinon
+   télécharge l'archive
    https://github.com/qu4ntum4/mtg-commander-coach/archive/refs/heads/main.zip et décompresse-la
    à cet endroit. S'il existe déjà, mets-le à jour (`git pull`, ou nouvelle archive).
 

@@ -24,7 +24,8 @@ erreurs qui l'ont façonnée.
 ## Installer
 
 Ouvre [PROMPT.md](PROMPT.md), copie le bloc et colle-le dans l'onglet Code de l'app Claude.
-Claude installe tout et termine par un bilan de santé qui dit ce qui marche.
+Claude installe tout (5 à 15 minutes selon la connexion) et termine par un bilan de santé qui
+dit ce qui marche.
 
 Installation à la main, si tu préfères : installe [uv](https://docs.astral.sh/uv/), récupère ce
 dépôt, puis depuis sa racine :
